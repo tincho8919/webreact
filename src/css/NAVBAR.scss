@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+.avion{
+    height: 40px;
+    width: 40px;
+    color: blue;
+}
+.Cabecera{
+    width: 100%;
+    padding: 1em;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.Cabecera-h1{
+    color: blue;
+    font-size: 2rem;
+    
+}
+.Cabecera-a{
+    color: rgb(116, 220, 238);
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.Cabecera-button{
+    display: none;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(116, 220, 238);
+}
+.Cabecera-svg{
+    width: 4em;
+    height: 4em;
+}
+.Cabecera-nav{
+    
+}
+.Cabecera-ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+
+}
+.Cabecera-li{
+    margin: 0;
+    text-decoration: none;
+    padding-top: 50px;
+    
+}
+
+@media (min-width: 320px){
+    .Cabecera-button{
+        display: flex;
+        display: block;
+    }
+    .Cabecera-nav{
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .Cabecera-ul{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    
+    }
+    .Cabecera-li{
+        margin: 1vh;
+    }
+    .Cabecera-ul.isActive{
+        display: flex;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .Cabecera-button{
+        display: flex;
+        display: block;
+    }
+    .Cabecera-nav{
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .Cabecera-ul{
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    
+    }
+    .Cabecera-li{
+        margin: 2vh;
+    }
+    .Cabecera-ul.isActive{
+        display: flex;
+    }
+    
+}
+
+
+@media (min-width: 990px){
+    .Cabecera-button{
+        display: none;
+    }
+
+    .Cabecera-ul{
+        display: flex;
+            flex-direction: row;
+            width: 75%;
+            margin-left: 250px;
+            margin-top: -50px;
+            height: 0;
+            padding: 0;
+        
+    
+    }
+    .Cabecera-li{
+        margin: 2vh;
+    }
+  
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: darkgray;
+}
+
+.copy{
+    position: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.us{
+    position: none;
+    text-align: center;
+}
+.bottonfooter{
+    position: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.whatsapp{
+    color: green;
+    filter: invert(68%) sepia(69%) saturate(5535%) hue-rotate(83deg) brightness(126%) contrast(119%);
+}
+
+.facebook{
+    color: blue;
+}
+
+.youtube{
+    color: red;
+    filter: invert(12%) sepia(99%) saturate(6796%) hue-rotate(3deg) brightness(103%) contrast(113%);
+}

@@ -1,0 +1,109 @@
+
+
+.black-background-table {
+    background-color: black;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .black-background-table th,
+  .black-background-table td {
+    padding: 8px;
+    border: 1px solid white;
+  }
+  
+  .black-background-table th {
+    background-color: #333;
+  }
+  
+  .black-background-table th,
+  .black-background-table td {
+    text-align: left;
+  }
+
+  @media (min-width: 320px){
+    .black-background-table {
+      background-color: black;
+      color: white;
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+    }
+    
+    .black-background-table th,
+    .black-background-table td {
+      padding: 8px;
+      border: 1px solid white;
+    }
+    
+    .black-background-table th {
+      background-color: #333;
+    }
+    
+    .black-background-table th,
+    .black-background-table td {
+      text-align: left;
+    }
+}
+
+
+
+@media (min-width: 768px){
+  .black-background-table {
+    background-color: black;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    height: 800px;
+  }
+  
+  .black-background-table th,
+  .black-background-table td {
+    padding: 8px;
+    border: 1px solid white;
+  }
+  
+  .black-background-table th {
+    background-color: #333;
+  }
+  
+  .black-background-table th,
+  .black-background-table td {
+    text-align: left;
+  }
+    
+}
+
+
+@media (min-width: 990px){
+  .black-background-table {
+    background-color: black;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    height: 900px;
+  }
+  
+  .black-background-table th,
+  .black-background-table td {
+    padding: 8px;
+    border: 1px solid white;
+  }
+  
+  .black-background-table th {
+    background-color: #333;
+  }
+  
+  .black-background-table th,
+  .black-background-table td {
+    text-align: left;
+  }
+}
